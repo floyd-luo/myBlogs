@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>新蛋网笔试面试题</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let cTemp,k=null;
+      function a() {
+        console.log("function a");
+      }
+      //debugger; //1
+      function b() {
+        function c() {
+          console.log('function c');
+        }
+        c();
+      }
+      cTemp=b(1);
+      //k=b(2);
+      //console.log(cTemp,k);
+      //debugger; //3
+     /*  var d = function () {
+        console.log("function d");
+      };
+      b(); */
+    </script>
+  </body>
+</html>
